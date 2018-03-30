@@ -26,3 +26,11 @@ PRESENTER DummyObject{value='2'}
 # Solution
 
 `replay().refCount()`
+
+```java
+FETCH DELAYED WITH SHARE
+USE CASE  DummyObject{value='1'}
+PRESENTER DummyObject{value='1'}
+USE CASE  DummyObject{value='2'}
+PRESENTER DummyObject{value='2'}
+```
