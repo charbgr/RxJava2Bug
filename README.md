@@ -28,7 +28,7 @@ PRESENTER DummyObject{value='2'}
 `replay().refCount()`
 
 ```java
-FETCH DELAYED WITH SHARE
+FETCH DELAYED WITH REPLAY & REFCOUNT
 USE CASE  DummyObject{value='1'}
 PRESENTER DummyObject{value='1'}
 USE CASE  DummyObject{value='2'}
